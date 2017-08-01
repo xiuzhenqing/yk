@@ -1,0 +1,23 @@
+/*专业团队*/
+.Peo img{
+  width:280px;
+  margin:0 50px;
+
+}
+.Peo p{
+  float:left;
+  width:500px;
+  line-height:30px;
+}
+.Peo p span{
+  font-size:14px;
+  color:#0a2b4a;
+}
+.Peo{
+  width:100%;
+margin-bottom:50px;
+
+
+
+}
+/* 专业团队结束*/

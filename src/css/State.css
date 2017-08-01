@@ -1,0 +1,137 @@
+.wl_cont{
+  width:100%;
+}
+.wl_menu{
+  width:286px;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 17px;
+  list-style-position: outside;
+}
+.wl_menu li{
+  box-sizing: border-box;
+  width:100%; 
+  text-align:center;
+  margin-bottom: 16px;
+  height:53px;
+  background:#ccc;
+  border-radius:5px;
+  font: normal 17px/56px "微软雅黑";
+  color: #575757;
+  position:relative;
+}
+.wl_menu li span{
+  position:absolute;
+  top:18px;
+  right:-20px;
+  width:0;
+  padding:0;
+  border:10px solid transparent;
+  border-left:10px solid #ccc;
+}
+.wl_menuList{
+  margin-bottom: 30px;
+}
+.wl_menuList li{
+  height: 45px;
+  line-height: 45px;
+  border-bottom: 1px dashed #4e4e4e;
+}
+.wl_menuList li a{
+  color: #58595b;
+  display:inline-block;
+  font: normal 16px/45px "微软雅黑";
+}
+.wl_menuList li .wl_listR{
+    display:inline-block;
+    font: normal 12px/45px "微软雅黑";
+    color: #949494;
+}
+.wl_menuList li .wl_heart,.wl_date{
+  font: normal 12px/45px "微软雅黑";
+  padding-left:25px;
+}
+
+.wl_menuList li .wl_heart{
+  background:url(../imgs/heart.png) 2px no-repeat;
+}
+.wl_menuList li .wl_date{
+  margin-left:25px;
+   background:url(../imgs/1_14.png) 2px no-repeat;
+}
+.wl_menuList li a:hover{
+  text-decoration:underline;
+}
+.wl_page{text-align:center;}
+.wl_page a{
+     border: 1px solid #c1c1c1;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+}
+.wl_page a:hover{
+  border: #f0f0f0 1px solid;
+}
+.wl_page .wl_pageNum{
+    color: #8b8b8b;
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #f0f0f0;
+}
+.wl_page .wl_pageStart{
+    color: #8b8b8b;  
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #f0f0f0;
+}
+.wl_page .wl_prePage{
+    margin: 2px;
+    color: #ddd;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+.wl_page .wl_pageEnd,.wl_nextPage,#wl_go{
+    color: #8b8b8b;
+    padding: 5px 10px;
+    margin: 2px;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #f0f0f0;
+}
+.wl_page .wl_listGo{
+    color: #8b8b8b;
+    text-align: center;
+    margin-left: 14px;
+    margin-right: 4px;
+}
+.wl_page #wl_pageText{
+    padding: 5px 5px;
+    width: 50px;
+    border: 1px solid #c1c1c1;
+}
+.x-list{
+  margin:20px 0 50px 200px;
+  width:800px;
+  height:400px;
+  box-shadow:1px 1px 2px #333,-1px -1px 2px #333;
+}
+.x-list img{
+ height:400px;
+ width:320px;
+ float: left;
+}
+.x-list div{
+  float: left;
+  width:480px;
+  height:100px;
+  border-bottom:1px solid #ccc;
+  text-align:center;
+  color:#333;
+  font-size:12px;
+
+
+
+}

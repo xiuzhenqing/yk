@@ -1,0 +1,301 @@
+/* 首页上固定内容开始 */
+.top-divider{
+ background-size:100%;
+width:100%;
+height:85vh;
+padding-top:50px;
+ position:fixed; top:52px; left:0; z-index: -1;
+
+
+}
+.lunbo{
+    height:85vh;
+  position:fixed; top:52px; left:0; z-index: -2;
+}
+
+
+.lunboMeng{
+  width:100vw;
+  height:100vh;
+  position:fixed; top:52px; left:0; z-index:-1;
+  background:url(../imgs/slideshow02.png) repeat;
+}
+.lunbo li{
+  width:100%;
+  position:absolute;
+  left:0;
+  top:0;
+  transition:1.5s;
+  opacity:0;
+
+}
+.lunbo li.lunbF{
+  opacity:1;
+}
+.lunbo li img{
+  width:100vw;
+  height:100vh;
+}
+
+
+
+
+.homepage-text h1
+{
+    font-family: "微软雅黑";
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    text-shadow: 1px 1px 3px #000;
+}
+
+
+.top-divider h2
+{
+    font-family: "微软雅黑";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.homepage-text h1 span, .homepage-text h2 span{
+        display: inline-block;
+        white-space: nowrap;
+}
+ .homepage-text h1 span.spen2{
+            margin-left: 10px;
+}
+
+.homepage-text h1 span
+{
+    margin-top: 3px;
+}
+
+.bottom-icon
+{
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    padding: 12px 7px;
+    border: 5px #FF6600 solid;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+
+}
+
+.content-container
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+}
+
+.content-containerIndex
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+}
+
+#homepage
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.x-warp{
+  width:1100px;
+   height:216px;
+   margin:0 auto;
+
+}
+.x-More{
+  padding-top:10px;
+ width:246px;
+ height:216px;
+ margin-right:25px;
+ background:rgba(255,255,255,.3);
+
+}
+.x-More h4{
+  text-align:center;
+  line-height:30px;
+  color:#fff;
+  font-size:18px;
+}
+.x-More p{
+  text-align:center;
+  line-height:40px;
+  color:#fff;
+  font-size:14px;
+
+
+}
+.x-bg{
+  width:100%;
+     background:#fff;
+     z-index:100;
+     width:100%;
+     position:absolute;
+     top:100vh; 
+   background:#fff;
+
+}
+
+
+
+
+
+.x-bg2{
+  position:absolute;
+  width:100vw;
+  height:600px;
+  background:red;
+  z-index:100;
+  top:0;
+background:url(../imgs/patternd.png) repeat;
+
+
+}
+.x-noM{
+   position:absolute;
+   width:600px;
+   left:45%;
+
+   margin-left:-250px;
+
+
+
+
+   z-index:200; 
+
+}
+.x-content{
+  width:100%;
+  height:500px;
+  background:#fff;
+  background:url(../imgs/two.jpg) no-repeat center;
+  background-size:100%;
+  padding-top:100px;
+
+}
+.x-content h5{
+
+   font-family: "微软雅黑";
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    text-shadow: 1px 1px 3px #000;
+}
+.x-content p{
+
+  font-family: "微软雅黑";
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 20px;
+    text-shadow: 1px 1px 3px #000;
+
+}
+.x-news{
+  width:1000px;
+  height:500px;
+  margin:0 auto;
+ 
+}
+.x-news h3{
+  font-size:20px;
+  color:#666;
+ text-align:center;
+padding:20px 0;
+font-weight:500;
+
+
+}
+.x-newsF{
+  width:214px;
+  padding:12px;
+  background:rgba(0,0,0,.1);
+  text-align:center;
+  margin:0 5px;
+}
+.x-news img{
+  width:214px;
+  height:155px;
+
+}
+.x-news p{
+  font-size:12px;
+  line-height:22px;
+}
+
+/* 首页移动内容 end */
+/*--图标--*/
+.section-divider
+{
+    margin: 20px auto;
+    /* width: 525px; */
+    height: 54px;
+    text-align: center;
+}
+
+.section_big_f
+{
+    margin: 15px auto;
+}
+
+.section_big
+{
+    width: 100%;
+    height:54px;
+}
+.section-divider img
+{
+    width: 54px;
+    height: 54px;
+    margin: 0 auto;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    border: 3px dotted #414141;
+    text-align: center;
+    position:relative;
+    z-index:1;
+}
+/*--end图标--*/
+
+
+
+
+

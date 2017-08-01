@@ -1,0 +1,140 @@
+ *{
+  margin:0;
+  padding:0;
+}
+ body{
+  width:100vw;
+  overflow-x: hidden;
+ background:url(imgs/bigBg.jpg) repeat;
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+.left{
+  float:left;
+  content:"";
+  display:block;
+}
+.right{
+  float:right;
+  content:"";
+  display:block;
+}
+.clear:after{
+ clear:both;
+  content:"";
+  display:block;
+}
+.box{
+  width:100%;
+  position:relative;
+}
+/* 导航栏开始 */
+.x-nav{
+  background-color: #0a2b4a;
+  height:50px;
+  color: white; 
+  width:860px;
+}
+.x-nav li{
+  line-height:50px;
+  width:86px;
+  float:left;
+  color:#fff;
+  text-align:center;
+
+}
+.x-nav li:hover{
+  background:rgba(255,102,0,1);
+}
+.x-nav a{
+  color:#fff;
+  display:inline-block;
+  width:86px;
+  height:50px;
+}
+.x-header{
+  width:100%;
+   height:50px;
+   box-shadow: 0px 1px 5px #000;
+   background:#fff;
+ position:fixed; top:0; left:0; z-index: 9000;
+}
+.x-logob{
+   margin-left:10%;
+}
+.x-logo{
+  width:201px;
+  height:36px;
+  margin-top:5px;
+}
+
+/* 公司简介 */
+.wl_wrap{
+  width:100%;  
+}
+.wl_header{
+  width:100%;
+  height:360px;
+  text-align:center;
+  background:url(imgs/two.jpg) no-repeat;
+  background-size:100% 100%;
+}
+.wl_header h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-top: 60px;
+    font: 34px/50px 微软雅黑;
+}
+.wl_header h4{
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font: 21px/50px 微软雅黑;
+}
+.wl_intro{
+  width: 1208px;
+  min-height: 500px;
+  padding: 34px 39px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  top: -70px;
+  border-radius: 10px;
+  box-shadow:2px 2px 5px #999,-2px -2px 5px #999;
+}
+.wl_header{
+  height:360px;
+}
+.wl_head{
+  height:37px;
+  margin-bottom:60px;
+}
+.wl_href{height:36px; line-height:36px;}
+.wl_intro img{width:100%;}
+.wl_nav li{
+  background-color: #efefef; 
+  color: #FF6600;
+  padding: 7px 10px;
+  font-size: 17px;
+  float:left;
+}
+.wl_ban{
+  margin-bottom: 60px;
+  width: 100%;
+  text-align:center;
+}
+.wl_ban img{width:900px;}
+
+
+
+
+
+
+
+
+
+
+

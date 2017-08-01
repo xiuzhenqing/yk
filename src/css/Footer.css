@@ -1,0 +1,134 @@
+
+
+/*-------------------------
+    footer
+---------------------------*/
+.page-container{
+   background:#fff;
+   width:100vw;
+   height:400px;
+   padding-top:20px;
+}
+
+.contact-section
+{
+    margin-top: 30px;
+    width: 100%;
+    background: none;
+    text-align: center;
+}
+/*--400电话--*/
+.page-subtitle
+{
+    display: inline-block;
+    font-family: "微软雅黑";
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    text-transform: none;
+    color: #808285 !important;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0;
+    text-shadow: none;
+    letter-spacing: 1px;
+}
+
+    .page-subtitle span
+    {
+        font-weight: 700;
+        color: #FF6600 !important;
+    }
+/*--end400电话--*/
+/*--交涉平台--*/
+.social-media-buttons
+{
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social-media-buttons a
+    {
+        display: inline-block;
+        font-family: '微软雅黑';
+        font-size: 16px;
+        padding: 0 10px;
+        color:#666;
+    }
+.sharing-section
+{
+    margin-top: 20px;
+    background: none;
+}
+
+h3.sharing-buttons
+{
+    font-family: "微软雅黑";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #58595b !important;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-shadow: none;
+    float: left;
+}
+
+    h3.sharing-buttons span
+    {
+        padding: 0 10px;
+        display: inline-block;
+    }
+
+.sharing-icons
+{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    text-align: center;
+}
+.ReadMore{
+  width:54px;
+  height:54px;
+}
+/*--end交涉平台--*/
+/*-------------------------
+    footer
+---------------------------*/
+.footer-container
+{
+    width: 100% !important;
+    height: 50px;
+    background-color: #0a2b49;
+    position: relative;
+    float: left;
+    -moz-box-shadow: 0px -1px 5px #777;
+    -webkit-box-shadow: 0px -1px 5px #777;
+    box-shadow: 0px -1px 5px #777;
+    position:absolute;
+   bottom:0;
+}
+
+.back-to-top
+{
+    margin: -30px auto;
+    text-align: center;
+}
+
+    .back-to-top img
+    {
+        margin: 0 auto;
+        width:52px;
+        height:60px;
+    }
+
+.wl_head{ width:100%; }
+/*footer  end*/
+/* 首页移动内容结束 */
