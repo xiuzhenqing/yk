@@ -1,0 +1,91 @@
+.wl_recruit{padding-bottom:59px;}
+.wl_zxnsMain{
+  width:1050px;
+  padding:0 40px;
+  margin:0 auto;
+} 
+.wl_zxns{
+  width:100%;
+  margin-top:40px;
+}
+.wl_zxns .wl_zxnsCard{
+    margin-left: 25px;
+    float: left;
+    width: 398px;
+    height: 179px;
+    background: url(../imgs/linebg_02.png) no-repeat;
+    padding: 20px 45px;
+    margin-bottom: 38px;
+    box-shadow:1px 1px 3px #999,-1px -1px 3px #999;
+    transition:.3s;
+}
+
+.wl_zxns .wl_zxnsCard:hover{
+  transform:translateY(-5px);
+   box-shadow:1px 1px 15px #ccc,-1px -1px 15px #ccc;
+}
+.wl_zxnsCard h2{
+  width:398px;
+  height:44px;
+}
+.wl_zxnsCard h2 .wl_fensuo{
+    font: bold 18px/24px "微软雅黑";
+    color: #6a6868;
+    margin-bottom: 20px;
+    float:left;
+}
+.wl_zxnsCard h2 .wl_name{
+    color: #4e4e4e;
+    margin-bottom: 20px;
+    float:right;
+}
+.wl_zxnsCard p .wl_userName{
+    font: normal 14px/40px "微软雅黑";
+    color: #6d6d6d;
+
+}
+.wl_zxnsCard p .wl_call{
+    font: normal 12px/40px "微软雅黑";
+    color: #7a7a7a;
+    padding-left: 10px;
+}
+/* tab 内容部分*/
+
+.wl_recmain{
+  width:1050px;
+  margin:0 auto;
+}
+.wl_tabTit{
+    width: 600px;
+    height: 80px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 70px;
+}
+.wl_tabTit a{
+    color: #808080;
+    font: normal 16px/30px "微软雅黑";
+    display: block;
+    float: left;
+    width: 190px;
+    text-align: center;
+}
+.wl_tabTit a.wl_hover{
+    font-size: 26px;
+    color: #525252;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #525252;
+}
+.wl_tabCon li p{
+    color: #4e4e4e;
+    font: normal 16px/26px "微软雅黑";
+    margin-bottom: 0px;
+}
+.wl_workaddress,.wl_workPro{
+  margin-top: 14px;
+}
+.wl_worklist{
+  text-indent: 2em;
+}
+
+/*招贤纳士结束*/

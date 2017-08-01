@@ -1,0 +1,18 @@
+.wl_font>.wl_firstP{
+  color: #4e4e4e;
+  text-indent: 2em;
+  font: normal 16px/30px "微软雅黑";
+}
+.wl_images{
+  width:100%;
+  text-align:center;
+}
+.wl_images img{
+  width:538px;
+}
+.wl_images p{
+  text-align: center;
+  color: #5d5d5d;
+  font: normal 14px/32px "微软雅黑";
+  margin-bottom: 30px;
+}
